@@ -1,0 +1,10 @@
+<?php
+try
+{
+	$bdd = new PDO('mysql:host=__host__;dbname=__dbname__', '__username__', '__password__');
+}
+catch(Exception $e)
+{
+	die('Erreur : '.$e->getMessage());
+}
+?>
