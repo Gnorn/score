@@ -48,10 +48,10 @@ The following file will interpret the results in the form of HTML tables, you ca
 
 For convenience you can bulk add a lot of games at once (say, the results of a tournament) through a CSV formatted bulk of text. Each game is described as follow:
 
-> Player1, Score1
-> Player2, Score2
-> Player3, Score3
-> Player4, Score4
+Player1, Score1
+Player2, Score2
+Player3, Score3
+Player4, Score4
 
 It should be pretty self-explanatory. If you add more lines they won't be interpreted, so you can use that space for comments or whatever you like
 
@@ -59,14 +59,14 @@ Games are separated by a line consisting of the following sequence : « --- »
 
 For example :
 
-> Chantal, -3
-> Élise, -35
-> Seiko, 24.2
-> Guillaume, 13.8
-> ---
-> Seiko, -22.3
-> Élise, -35
-> Guillaume, 43.9
-> Chantal, 13.4
+Chantal, -3
+Élise, -35
+Seiko, 24.2
+Guillaume, 13.8
+---
+Seiko, -22.3
+Élise, -35
+Guillaume, 43.9
+Chantal, 13.4
 
 will insert two games, in the first Chantal scored -3, Élise -35, Seiko +24.2 and Guillaume 13.8, and in the second Seiko scored -22.3, Élise -35, Guillaume 43.9 and Chantal 13.4
