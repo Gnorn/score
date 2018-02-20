@@ -1,0 +1,3 @@
+Make this work with SQLite.
+Clean how the program deals with floats and stuff.
+Internationalize code (now using french names for files and vars)
